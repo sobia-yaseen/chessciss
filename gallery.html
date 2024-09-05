@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CHES SCISS</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header>
+      <div class="top-bar">
+        <div>
+          <a href="#"><i class="fa-brands fa-instagram fa"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="search-area">
+          <div>
+            <select class="selectpicker" data-width="fit">
+              <option
+                data-content='<span class="flag-icon flag-icon-us"></span> English'>En</option>
+              <option
+                data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Fr</option>
+            </select>
+          </div>
+          <button onclick="openSearch()"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <a href="my-account.html" class="bg-none"><i
+              class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light to-nav-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"
+              alt></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img src="img/menubar.png" alt width="20">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                  id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item dropdown-toggle" href="#"
+                      id="navbarScrollingDropdown1" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Action</a>
+                    <ul class="dropdown-menu"
+                      aria-labelledby="navbarScrollingDropdown1">
+                      <li><a class="dropdown-item" href="#">new</a></li>
+                      <li><a class="dropdown-item dropdown-toggle" href="#"
+                        id="navbarScrollingDropdown1" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Action</a>
+                      <ul class="dropdown-menu"
+                        aria-labelledby="navbarScrollingDropdown1">
+                        <li><a class="dropdown-item" href="#">new</a></li>
+                        <li><a class="dropdown-item" href="#">new</a></li>
+                        <li><a class="dropdown-item" href="#">new</a></li>
+                        <li><a class="dropdown-item" href="#">new</a></li>
+                        <li><a class="dropdown-item" href="#">new</a></li>
+                      </ul>
+                    </li>
+                      <li><a class="dropdown-item" href="#">new</a></li>
+                      <li><a class="dropdown-item" href="#">new</a></li>
+                      <li><a class="dropdown-item" href="#">new</a></li>
+                      <li><a class="dropdown-item" href="#">new</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources.html">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="professional-development.html">Professional
+                  Devalopment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="forum.html">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news-events.html">News & Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="become-member" type="submit">Become A
+                Member</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Sub Banner start -->
+    <section class="sub-banner">
+      <div class="img-area"><img src="img/ch-banner.png" alt></div>
+      <div class="sub-banner-text">
+        <h1>gallery</h1>
+      </div>
+    </section>
+
+    <!--gallery start -->
+    <section class="mt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="gallery-area row justify-content-center">
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <a href="img/national.png" data-toggle="lightbox"
+                data-gallery="hidden-images" class="col-4">
+                <img src="img/national.png" class="img-fluid">
+              </a>
+              <!-- elements not showing, use data-remote or data-src-->
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 4"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 5"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 6"></div>
+              <div data-toggle="lightbox" data-gallery="hidden-images"
+                data-src="https://covethemes.com/ches-sciss/img/national.png"
+                data-title="Hidden item 7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Accordion start -->
+    <section class="mt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Professional Development
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Allegion Canada Inc. offers total solutions for all
+                      your door security requirements</strong>
+                    BENDER Canada is part of the global German-owned BENDER
+                    Group. Bender is synonymous with quality worldwide. Our
+                    intention to focus on electrical safety is a pledge to our
+                    customers.
+                    A person is eligible for Associate Membership if they
+                    provide managerial support, consulting services, products,
+                    and other such services to those involved in day-to-day
+                    delivery of health facility services and interested in the
+                    objectives of the society. Associate Members have voting
+                    privileges and may hold a seat on the Board of Directors but
+                    may not hold Executive office in the Society.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Communications
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>All Systems Communications Contracting Inc.</strong>
+                    is a full-service systems integrator and communications
+                    contractor, providing customized technology and
+                    communications solutions for healthcare, education,
+                    distinctive facilities, house of worship, senior living, and
+                    corporate environments. All Systems Communications
+                    Contracting Inc. supports any complex project, regardless of
+                    size or scope.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    Partnerships & Advocacy
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Allegion Canada Inc. offers total solutions for all your
+                    door security requirements
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Accordion start -->
+    <section class="tabe-left-side mt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab"
+                role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                  type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">Professional Development</button>
+                <button class="nav-link" id="v-pills-profile-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                  type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">Communications</button>
+                <button class="nav-link" id="v-pills-messages-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+                  type="button" role="tab" aria-controls="v-pills-messages"
+                  aria-selected="false">Partnerships & Advocacy</button>
+                <button class="nav-link" id="v-pills-settings-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+                  type="button" role="tab" aria-controls="v-pills-settings"
+                  aria-selected="false">Settings</button>
+              </div>
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home"
+                  role="tabpanel" aria-labelledby="v-pills-home-tab">Allegion
+                  Canada Inc. offers total solutions for all your door security
+                  requirements BENDER Canada is part of the global German-owned
+                  BENDER Group. Bender is synonymous with quality worldwide. Our
+                  intention to focus on electrical safety is a pledge to our
+                  customers. A person is eligible for Associate Membership if
+                  they provide managerial support, consulting services,
+                  products, and other such services to those involved in
+                  day-to-day delivery of health facility services and interested
+                  in the objectives of the society. Associate Members have
+                  voting privileges and may hold a seat on the Board of
+                  Directors but may not hold Executive office in the
+                  Society.</div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                  aria-labelledby="v-pills-profile-tab">Allegion Canada Inc.
+                  offers total solutions for all your door security requirements
+                  BENDER Canada is part of the global German-owned BENDER Group.
+                  Bender is synonymous with quality worldwide. Our intention to
+                  focus on electrical safety is a pledge to our customers. A
+                  person is eligible for Associate Membership if they provide
+                  managerial support, consulting services, products, and other
+                  such services to those involved in day-to-day delivery of
+                  health facility services and interested in the objectives of
+                  the society. Associate Members have voting privileges and may
+                  hold a seat on the Board of Directors but may not hold
+                  Executive office in the Society.</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                  aria-labelledby="v-pills-messages-tab">Allegion Canada Inc.
+                  offers total solutions for all your door security requirements
+                  BENDER Canada is part of the global German-owned BENDER Group.
+                  Bender is synonymous with quality worldwide. Our intention to
+                  focus on electrical safety is a pledge to our customers. A
+                  person is eligible for Associate Membership if they provide
+                  managerial support, consulting services, products, and other
+                  such services to those involved in day-to-day delivery of
+                  health facility services and interested in the objectives of
+                  the society. Associate Members have voting privileges and may
+                  hold a seat on the Board of Directors but may not hold
+                  Executive office in the Society.</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                  aria-labelledby="v-pills-settings-tab">Allegion Canada Inc.
+                  offers total solutions for all your door security requirements
+                  BENDER Canada is part of the global German-owned BENDER Group.
+                  Bender is synonymous with quality worldwide. Our intention to
+                  focus on electrical safety is a pledge to our customers. A
+                  person is eligible for Associate Membership if they provide
+                  managerial support, consulting services, products, and other
+                  such services to those involved in day-to-day delivery of
+                  health facility services and interested in the objectives of
+                  the society. Associate Members have voting privileges and may
+                  hold a seat on the Board of Directors but may not hold
+                  Executive office in the Society.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start need-help -->
+    <section class="need-help mt-100">
+      <div class="container-fluid px-0">
+        <div class="row gx-0">
+          <div class="col-md-12">
+            <div class="text">
+              <h4>need our help?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                semper sit amet purus sit amet laoreet.</p>
+              <br>
+              <a href="#" class="btn-style">contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start Footer -->
+    <footer>
+      <div class="container-fluid px-0">
+        <div class="hr-row">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-left-content">
+                <div class="logo">
+                  <img src="img/logo-foot.png" alt>
+                </div>
+                <div class="social-icons">
+                  <ul>
+                    <li><a href="#"><i
+                          class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i
+                          class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i
+                          class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i
+                          class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="footer-right-content">
+                <p>The Canadian Healthcare Engineering Society (CHES) is a
+                  national professional association representing approximately
+                  1,000 healthcare engineers and associates across Canada. CHES
+                  seeks to help members to better manage the healing environment
+                  which is imperative for efficient and effective healthcare
+                  delivery.</p>
+                <ul>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">memebrship</a></li>
+                  <li><a href="#">resources</a></li>
+                  <li><a href="#">professional development</a></li>
+                  <li><a href="#">forum</a></li>
+                  <li><a href="#">news $ evnts</a></li>
+                  <li><a href="#">contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-0">
+        <div class="footer-bar">
+          <div class="row gx-0">
+            <div class="col-md-6">
+              <p> CHES &copy; 2023 All right reserved |Webdesign Vancouver By
+                Bragdeal Inc</p>
+            </div>
+            <div class="col-md-6">
+              <div class="links">
+                <ul>
+                  <li><a href="#">privacy </a></li>
+                  <li>-</li>
+                  <li><a href="#">Trems and conditions</a></li>
+                  <li>-</li>
+                  <li><a href="#">sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- sarc -->
+    <div id="searchbar" class="overlay">
+      <span class="closebtn" onclick="closeSearch()"
+        title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.bundle.min.js"></script>
+    <script>
+      $(function(){
+          $('.selectpicker').selectpicker();
+      });
+      function openSearch() {
+        document.getElementById("searchbar").style.display = "block";
+      }
+      
+      function closeSearch() {
+        document.getElementById("searchbar").style.display = "none";
+      }
+    </script>
+    <script>
+      let dropdowns = document.querySelectorAll('.dropdown-toggle')
+dropdowns.forEach((dd)=>{
+    dd.addEventListener('click', function (e) {
+        var el = this.nextElementSibling
+        el.style.display = el.style.display==='block'?'none':'block'
+    })
+})
+    </script>
+  </body>
+</html>
